@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf8">
+    <title>Ox Player Examples</title>
+
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="oxplayer.js"></script>
+
+    <link rel="stylesheet" href="oxplayer.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="font-awesome.min.css" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container main-page-container">
+            <h1 class="title align-center">Ox Player</h1>
+            <div class="divider-h"></div>
+
+            <div class="section">
+                <h3 class="section-title">Simple</h3>
+                <h4 class="section-description">This example shows the most basic features of Ox Player like playing, pausing, changing the volume, going fullscreen and jumping to a specific time of the video.</h4>
+
+                <div class="example example-1">
+                    <video class="example-video-1">
+                        <source type="video/webm" src="https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c0/Big_Buck_Bunny_4K.webm/Big_Buck_Bunny_4K.webm.480p.webm"></source>
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    $(document).ready(function(e) {
+        $('.example-video-1').oxPlayer();
+    });
+    </script>
+</body></html>

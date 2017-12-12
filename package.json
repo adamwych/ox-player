@@ -1,0 +1,24 @@
+{
+  "name": "ox-player",
+  "version": "1.0.0",
+  "description": "Simple video player written in JavaScript.",
+  "main": "src/OxPlayer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adam Wychowaniec",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babelify": "^8.0.0",
+    "browserify": "^14.5.0",
+    "del": "^3.0.0",
+    "fscreen": "^1.0.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "velocity-animate": "^1.5.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
